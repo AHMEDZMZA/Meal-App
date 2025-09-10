@@ -54,18 +54,23 @@ class MealsDetailsItem extends StatelessWidget {
           ),
         ),
         SizedBox(height: 20),
-        Container(
-          alignment: Alignment.center,
-          width: double.infinity,
-          height: 50,
-          margin: EdgeInsets.all(10),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-            color: Colors.teal,
-          ),
-          child: Text(
-            "Back",
-            style: TextStyle(fontSize: 25, color: Colors.black),
+        GestureDetector(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: Container(
+            alignment: Alignment.center,
+            width: double.infinity,
+            height: 50,
+            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.teal,
+            ),
+            child: Text(
+              "Back",
+              style: TextStyle(fontSize: 25, color: Colors.black),
+            ),
           ),
         ),
       ],
