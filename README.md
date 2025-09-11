@@ -1,6 +1,6 @@
 # Meal App
 
-
+# Search AND Run App ⬇️
 
 ## Task Date: (8-9-2025)
 
@@ -26,8 +26,6 @@
 
 ### 1️- SliverGridDelegateWithFixedCrossAxisCount
 
-
-
 - **crossAxisCount** → Select the number of items per row. (**required**)  
 
 - **crossAxisSpacing** → Space between columns.  
@@ -47,8 +45,6 @@
 
 
 ### 2️- SliverGridDelegateWithMaxCrossAxisExtent
-
-
 
 - **maxCrossAxisExtent** → Max width for each item (**required**)  
 
