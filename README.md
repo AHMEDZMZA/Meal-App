@@ -32,6 +32,29 @@
 - **itemCount** → Total number of items in the grid.  
 
 ---
+### Example
+GridView.builder(
+  itemCount: ,
+  /*
+  gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(
+    crossAxisCount: , 
+    crossAxisSpacing: , 
+    mainAxisSpacing: ,  
+    childAspectRatio:
+  ),
+  */
+    gridDelegate:  SliverGridDelegateWithMaxCrossAxisExtent(
+    maxCrossAxisExtent: , 
+    crossAxisSpacing: , 
+    mainAxisSpacing: ,  
+    childAspectRatio:
+  ),
+  itemBuilder: (context, index) {
+    return *********
+  },
+)
+
+---
 
 ##  Run App
 
